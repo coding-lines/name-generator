@@ -2,7 +2,7 @@ from random import choice
 
 vowels = list("aeiou")
 consonants = list("wrtzupsdfghjklycvbnm")
-beginning = list("qwertzuioplkjhgfdsayxcvbnm".upper())
+beginning = list('QWERTZUIOPLKJHGFDSAYXCVBNM')
 
 def newName():
     return choice(beginning)+choice([choice(consonants),choice(vowels)])
